@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"fr.epita.maths.test"},{"l":"fr.epita.quiz.datamodel"},{"l":"fr.epita.quiz.services.data"}]

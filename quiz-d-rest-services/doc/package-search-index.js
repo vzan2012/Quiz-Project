@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"fr.epita.quiz.resources"},{"l":"fr.epita.quiz.services.web.api.transport"}]

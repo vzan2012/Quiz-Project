@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"fr.epita.quiz.services.web.api.transport","l":"MCQChoiceMessage"},{"p":"fr.epita.quiz.services.web.api.transport","l":"QuestionMessage"},{"p":"fr.epita.quiz.resources","l":"QuestionResource"}]

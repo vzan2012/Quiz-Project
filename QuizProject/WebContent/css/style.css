@@ -1,0 +1,154 @@
+/*** General Styles ***/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; 
+	position: relative;
+	padding-top: 60px;
+}
+
+#questions-display .table {
+	width: 50% !important;
+	margin: 0 auto;
+}
+
+.question-display-cont, .viewall-display-cont {
+	margin-bottom: 50px;
+}
+
+.question-display-cont .qdc-title, .viewall-display-cont .viewall-title {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+    color: #333;
+    border: 0;
+}
+
+.nav>li>a {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+/*** View All - Styles - Start ***/
+
+#viewall-display {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+#viewall-display .question-box {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+#viewall-display .question-box:last-child {
+	border-bottom: 0;
+}
+
+#viewall-display .question-box .questionLabel {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #34495e;
+}
+
+#viewall-display .question-box .choiceLabel {
+	margin-bottom: 5px;
+}
+
+#viewall-display .question-box .choiceLabel:last-child {
+	margin-bottom: 10px;
+}
+
+#viewall-display .question-box .choiceLabel .choice-caption {
+	font-weight: bold;
+}
+
+/*** View All - Styles - End ***/
+
+/*** Dashboard Styles - Start ***/
+
+.dashboard-container-title {
+	color: #2c3e50;
+}
+
+.dashboard-container {
+	position: relative;
+	clear: both;
+}
+
+.dashboard-container .q-box-link {
+	background: #eee;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-bottom: 50px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.dashboard-container-title {
+	margin-bottom: 100px;
+}
+
+.dashboard-container .q-box-link {
+	border: 1px solid #ccc;
+	display: block;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.dashboard-container .q-box-link i {
+	display: block;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.dashboard-container .q-box-link span {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.dashboard-container .q-box-link:hover {
+	box-shadow: none;
+	text-decoration: none;
+}
+
+.small-text {
+	position: relative;
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.choiceidlabel {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*** Dashboard Styles - End ***/
+
+
+/*** Responsive Styles - Start ***/
+
+@media (max-width: 600px) {
+	
+	#questions-display .table, #viewall-display {
+		width: 100% !important;
+	}
+	
+}
+
+/*** Responsive Styles - End ***/
+
+
+
